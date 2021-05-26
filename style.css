@@ -1,0 +1,123 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  font-family: Poppins, sans-serif;
+  color:#7f5539;
+  line-height:200%;
+  background-color:#fafafa;
+}
+
+@media (max-width: 1280px) {
+    /* For a screen < 1280px, this CSS will be read */
+  .container {
+    width: 700px;   /* This sets the width */
+    margin: 0 auto;
+    margin-top:30px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;   /* This sets the width */
+    margin: 0 auto;
+    margin-top:30px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;   /* This sets the width */
+    margin: 0 auto;
+    margin-top:30px;
+  }
+}
+
+
+
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #f5f0ed;
+}
+.list-inline i:hover {
+  color:#cfbea7;
+}
+
+.card-white {
+  background-color:white;
+  margin:20px;
+  padding:30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.top-card {
+  padding-top:0;
+}
+
+a {
+  text-decoration: none;
+  color:#656d4a;
+}
+
+h1, h2 {
+  color: #a68a64;
+  letter-spacing: -2px;
+  text-transform: lowercase;
+}
+
+h2 {
+  font-size:23px;
+  color:#656d4a;
+}
+
+.img-circle {
+  border-radius:50%;
+}
+
+.overlayed-text {
+  position:relative;
+  top:20px;
+  left:-50px;
+  font-size:45px;
+  text-align:left;
+}
+
+.green-btn:hover {
+  opacity:100%;
+  font-weight:300;
+  color:#cacfba;
+}
+
+.green-btn {
+  background-color: #656d4a;
+  color:#FFFFFF;
+  font-weight:300;
+  opacity:60%;
+  padding:10px;
+  border-radius: 5px;
+}
+
+
+p {
+  font-weight:300;
+  font-size:15px;
+  letter-spacing:1px;
+}
+
